@@ -1,0 +1,91 @@
+.eventHolder {
+  margin-left: 10%;
+  margin-right: 10%;
+  white-space: nowrap;
+  vertical-align: top;
+  margin-bottom: 2em;
+  white-space: nowrap;
+  min-width: 800px;
+}
+
+.eventItem {
+  background-color: dimgray;
+  height: 5em;
+  display: table-cell;
+  /* border: black solid 2px; */
+  word-break: break-word;
+  padding: 20px;
+}
+
+.eventText {
+  white-space: normal;
+  position: relative;
+  top: -50px;
+
+}
+
+.eventName {
+  white-space: normal;
+  position: relative;
+  top: -50px;
+}
+
+.eventDateDiv {
+  position: relative;
+}
+
+.eventDateDiv img{
+  /* width: 100%; */
+}
+.eventDate {
+  position: relative;
+  top: -42px;
+  left: -60px;
+}
+
+.item1 {
+  width: 30%;
+  color: white;
+  font-size: 25px;
+  min-width: 10em;
+}
+
+.item1 img {
+  white-space: normal;
+}
+
+.item2 {
+  background-color: white;
+  color: gray;
+  width: 30%;
+  min-width: 10em;
+}
+
+.item3 {
+  width: 40%;
+  min-width: 15em;
+  color: white;
+}
+
+a.buttonZapisz {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+
+  text-decoration: none;
+  color: white;
+  background-color: dimgray;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.eventLogo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.buttonDiv {
+
+}

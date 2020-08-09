@@ -1,0 +1,27 @@
+<div class=eventHolder>
+  <div class="eventItem item1" [ngStyle] = "{'background-color': color}">
+    <div class="eventDateDiv">
+      <img src="assets/icons/calendar.svg">
+      <span class="eventDate">
+        {{event.datetime}}
+      </span>
+    </div>
+    <img class="eventLogo" src="assets/icons/{{event.type}}.svg">
+  </div>
+
+  <div class="eventItem item2">
+    <div class="eventName">
+      {{event.name}}
+    </div>
+    <div class="buttonDiv">
+      <a [href]="event.registration_url" class="buttonZapisz" [ngStyle] = "{'background-color': color}" target="_blank">ZAPISZ SIĘ</a>
+    </div>
+  </div>
+
+  <div class="eventItem item3" [ngStyle] = "{'background-color': color}">
+    <div class="eventText">
+      {{event.description}}
+    </div>
+  </div>
+
+</div>
