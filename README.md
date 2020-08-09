@@ -4,6 +4,4 @@ Install Angular CLI
 then run
 ```ng serve```
 
-Open browser and type
-localhost:4200 
-at URL 
+Open your browser on ```http://localhost:4200/```
